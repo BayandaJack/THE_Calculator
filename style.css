@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: peachpuff;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+#calc_body{
+    border-radius: 15px;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 10px; /* spacing between buttons */
+}
+
+button {
+  width: 60px;           /* equal width and height */
+  height: 60px;
+  border-radius: 50%;    /* makes it round */
+  border: none;          /* optional: removes default border */
+  font-size: 24px;       /* optional: bigger text */
+  cursor: pointer;       /* makes cursor a pointer on hover */
+  transition: transform 0.1s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.95); /* slightly shrink the button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* optional: add a shadow */
+}
