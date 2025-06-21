@@ -4,6 +4,19 @@ body{
     background: peachpuff;
     padding: 100px 100px;
     text-align: center;
+    color: #fff;
+}
+
+h1{
+    color: black;
+}
+
+.display{
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    background-color: grey;
+    text-align: right;
 }
 
 #calc_body{
@@ -23,11 +36,16 @@ body{
 button {
   width: 60px;           /* equal width and height */
   height: 60px;
+  background-color: grey;
   border-radius: 50%;    /* makes it round */
   border: none;          /* optional: removes default border */
   font-size: 24px;       /* optional: bigger text */
   cursor: pointer;       /* makes cursor a pointer on hover */
   transition: transform 0.1s ease-in-out;
+}
+
+button:hover{
+    border: 2px white solid;
 }
 
 button:active {
